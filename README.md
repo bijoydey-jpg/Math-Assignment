@@ -6,6 +6,7 @@ This repository contains solutions to several matrix-related tasks.
 All tasks demonstrate the use of loops, conditions, and mathematical logic in programming.
 
 TASK 1: TRANSPOSE OF A MATRIX
+
 A. Transpose of a Rectangular Matrix
 
 The program takes a rectangular matrix as input.

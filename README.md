@@ -1,97 +1,67 @@
-# Matrix Operations – Assignment Overview
+MATRIX OPERATIONS – ASSIGNMENT README
 
-MATRIX OPERATIONS - ASSIGNMENT README
-
-This repository contains solutions to several matrix-related tasks.
-All tasks demonstrate the use of loops, conditions, and mathematical logic in programming.
+This repository contains solutions for fundamental matrix operations including transpose, symmetry checks, and arithmetic operations. Each program demonstrates loops, conditions, and logical reasoning in programming.
 
 TASK 1: TRANSPOSE OF A MATRIX
 
-A. Transpose of a Rectangular Matrix
+Subtask 1A: Rectangular Matrix
 
-The program takes a rectangular matrix as input.
+Input: A rectangular matrix with multiple rows and columns
 
-A second matrix is used to store the transpose.
+Method: Use a separate matrix to store the transposed values
 
-Transpose rule:
-transpose[j][i] = original[i][j]
+Output: A new matrix where rows and columns are interchanged
 
-B. In-Place Transpose of a Square Matrix
+Subtask 1B: In-Place Square Matrix
 
-Works only for square matrices (N x N).
+Input: A square matrix with equal number of rows and columns
 
-No second matrix is used.
+Method: Modify the original matrix by swapping elements across the diagonal
 
-Elements across the diagonal are swapped:
-swap(a[i][j], a[j][i]) when i < j
+Output: The original matrix is converted into its transpose without using a second matrix
 
-TASK 2: CHECK WHETHER A MATRIX IS SYMMETRIC
+TASK 2: SYMMETRIC MATRIX CHECK
 
-A matrix is symmetric if:
-A = A^T
+Definition: A matrix is symmetric if it is identical to its transpose
 
 Conditions:
 
-The matrix must be square.
+The matrix must be square
 
-For every pair of indices,
-a[i][j] = a[j][i]
+The elements must mirror across the main diagonal
 
-Output:
-The program prints "Symmetric" or "Not symmetric".
+Output: The program prints whether the matrix is symmetric or not
 
-TASK 3: CHECK WHETHER A MATRIX IS SKEW-SYMMETRIC
+TASK 3: SKEW-SYMMETRIC MATRIX CHECK
 
-A matrix is skew-symmetric if:
-A = -A^T
+Definition: A matrix is skew-symmetric if it is equal to the negative of its transpose
 
 Conditions:
 
-The matrix must be square.
+The matrix must be square
 
-All diagonal elements must be zero.
+All diagonal elements must be zero
 
-For all elements,
-a[i][j] = -a[j][i]
+The elements must be opposite across the main diagonal
 
-Output:
-The program prints whether the matrix is skew-symmetric.
+Output: The program prints whether the matrix is skew-symmetric
 
 TASK 4: MATRIX OPERATIONS
 
-This task performs three basic operations between two matrices.
+Addition
 
-Matrix Addition
-Formula:
-C[i][j] = A[i][j] + B[i][j]
-Requirement: Same dimensions
+Description: Adds two matrices of the same size element by element
 
-Matrix Subtraction
-Formula:
-C[i][j] = A[i][j] - B[i][j]
-Requirement: Same dimensions
+Output: A new matrix containing the sum
 
-Matrix Multiplication
-Formula:
-C[i][j] = sum over k ( A[i][k] * B[k][j] )
-Requirement:
-If A is (m x n), then B must be (n x p)
+Subtraction
 
-SUMMARY
+Description: Subtracts one matrix from another of the same size element by element
 
-This project includes:
+Output: A new matrix containing the difference
 
-Transpose of rectangular matrices
+Multiplication
 
-In-place transpose for square matrices
+Description: Multiplies two compatible matrices according to matrix multiplication rules
 
-Symmetric matrix check
-
-Skew-symmetric matrix check
-
-Matrix addition, subtraction, and multiplication
-
-It provides a complete introduction to essential matrix operations used in programming and linear algebra.
-
-
-
+Output: A new matrix containing the product

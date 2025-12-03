@@ -2,7 +2,8 @@ MATRIX OPERATIONS – ASSIGNMENT README
 
 This repository contains solutions for fundamental matrix operations including transpose, symmetry checks, and arithmetic operations. Each program demonstrates loops, conditions, and logical reasoning in programming.
 
-TASK 1: TRANSPOSE OF A MATRIX
+
+**TASK 1: TRANSPOSE OF A MATRIX**
 
 Subtask 1A: Rectangular Matrix
 
@@ -20,7 +21,7 @@ Method: Modify the original matrix by swapping elements across the diagonal
 
 Output: The original matrix is converted into its transpose without using a second matrix
 
-TASK 2: SYMMETRIC MATRIX CHECK
+**TASK 2: SYMMETRIC MATRIX CHECK**
 
 Definition: A matrix is symmetric if it is identical to its transpose
 
@@ -32,7 +33,7 @@ The elements must mirror across the main diagonal
 
 Output: The program prints whether the matrix is symmetric or not
 
-TASK 3: SKEW-SYMMETRIC MATRIX CHECK
+**TASK 3: SKEW-SYMMETRIC MATRIX CHECK**
 
 Definition: A matrix is skew-symmetric if it is equal to the negative of its transpose
 
@@ -46,7 +47,7 @@ The elements must be opposite across the main diagonal
 
 Output: The program prints whether the matrix is skew-symmetric
 
-TASK 4: MATRIX OPERATIONS
+**TASK 4: MATRIX OPERATIONS**
 
 Addition
 
